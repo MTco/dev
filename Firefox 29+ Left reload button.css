@@ -1,0 +1,8 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#urlbar > toolbarbutton {
+    -moz-box-ordinal-group: 0;
+    padding-left: 10px;
+    border-right: 1px lightgrey solid;
+    padding-right: 5px
+}

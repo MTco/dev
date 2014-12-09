@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(http://), url-prefix(ftp://), url-prefix(file://), url-prefix(https://) {
+	* { color:#444 !important; background: none !important; background-color: white !important;  line-height: 160% !important; font-size: 12pt !important;}
+	a:link {color:#0000EE !important;}
+	a:visited {color: #551A8B !important;}
+	a:hover, a:active { color: red !important;}
+}

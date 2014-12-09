@@ -1,0 +1,2 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain('okcupid.com') {body#p_profile .tabbed_heading #actions .message .message_button_contact_bar.last_contact{display:block !important;}}

@@ -1,0 +1,9 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+tab,.tabs-bottom {
+    opacity:0.5 !important;
+}
+
+tab[selected="true"], .tabs-bottom,.tabbrowser-tab[pinned]{
+    opacity:1 !important;
+}

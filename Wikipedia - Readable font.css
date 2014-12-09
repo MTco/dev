@@ -1,0 +1,8 @@
+@-moz-document domain("en.wikibooks.org"), domain("en.wikipedia.org"), domain("en.wikiquote.org"), domain("en.wikisource.org"), domain("en.wikiversity.org"), domain("en.wiktionary.org"), domain("en.wikimedia.org") {
+	body, p, #searchInput {
+		font-family:Georgia, "URW Bookman L", serif !important;
+	}
+	body {
+		zoom: 100%;
+	}
+}

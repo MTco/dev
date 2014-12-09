@@ -1,0 +1,39 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*background unselected*/
+.tab-image-middle:not([selected="true"]),tab:not([selected="true"]){background:lightgray!important;color:gray!important;font-style:italic!important}
+/*active*/
+.tab-image-middle[selected="true"],tab[selected="true"]{background:white!important;color:darkgray!important;font-style:normal!important;font-weight:bold!important}
+/*background selected*/
+.tab-image-middle[selected="false"],tab[selected="false"]{background:darkgray!important;font-style:italic!important;text-decoration:line-through!important}
+
+/*hover*/
+/*background unselected*/
+.tab-image-middle:not([selected="true"]):hover,tab:not([selected="true"]):hover{background:#FFF!important;color:blue!important;font-weight:bold!important;text-decoration:none!important}
+/*active*/
+.tab-image-middle[selected="true"]:hover,tab[selected="true"]:hover{background:#FFF!important;color:#000!important}
+/*background selected*/
+.tab-image-middle[selected="false"]:hover,tab[selected="false"]:hover{background:#FFF!important;color:red!important;font-weight:bold!important}
+
+/*tab settings*/
+tab>.tab-image-middle,tab,tabs{margin-left:1px!important;max-height:18px!important;-moz-appearance:none!important}
+tab,tab>.tab-image-middle{border:ridge 1px!important}
+.tabbrowser-arrowscrollbox{height:auto!important}
+/*bottom border*/
+.tabbrowser-strip{border-bottom:solid 1px #000!important;-moz-appearance:none!important}
+/*font size*/
+.tab-text{font-size:3mm!important}
+/*font colour while loading */
+tab[busy]>.tab-image-middle:hover,tab[busy]:hover,tab[busy]>.tab-image-middle,tab[busy]{color:green!important}
+/*font colour non responding servers*/
+.tabbrowser-tabs tab[label="Problem loading page"]{color:red!important;font-weight:bold!important}
+/*mouseover tab widen*/
+.tabbrowser-strip tab:hover{min-width:400px!important}
+/*remove tab dropmenu*/
+#content stack[pack=end],
+/*top/bottom lines behind tabs*/
+#content spacer,.tabs-bottom,
+/*remove tab spaces FF2/3*/
+tab>.tab-image-left,tab>.tab-image-right{display:none!important}
+/*show side parts on mouseover*/
+tab:hover>.tab-image-left,tab:hover>.tab-image-right{display:-moz-box!important}

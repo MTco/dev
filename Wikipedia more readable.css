@@ -1,0 +1,26 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("wikipedia.org") {
+body {font-family:"Open Sans", "Helvetica Neue", Arial, sans-serif;}
+	h1, h2, h3, h4, h5, h6 {border-bottom-color:#ddd;}
+	p {line-height:1.3em; margin-bottom:1.3em;}
+	#mw-content-text {font-size:1.1em; line-height:1.3em;}
+	li:last-of-type, dd:last-of-type {margin-bottom:1.3em;}
+	#mw-content-text h2 {padding-top:1.7em;}
+	a, div#content a.external {color:#00d;}
+	a:visited, div#content a.external:visited{color:#90d;}
+	.mw-editsection, .mw-editsection a {color:#ccc !important;}
+	h2:hover .mw-editsection a {color:#666 !important;}
+	#mw-panel .portal{-webkit-transition: opacity 250ms ease; -moz-transition: opacity 250ms ease; -o-transition: opacity 250ms ease; transition: opacity 250ms ease; opacity:0.3;}
+	#mw-panel:hover .portal{opacity:1;}
+	#mw-panel a {color:#666 !important;}
+	#mw-head{-webkit-transition:opacity 250ms ease; opacity:0.6;}
+	#mw-head:hover{opacity:1;}
+	#mw-head a{color:#666 !important;}
+	#mw-head div.vectorTabs li.selected {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAIAAADITs03AAAAPElEQVR4XuWK2xEAIAzCsPvv5DSu0ahX3yv4wQVyGGCSvg2dnJvduT8sz/IwKOIfjCi2z/76FhHeJcslVZQFLUC06LZ/AAAAAElFTkSuQmCC); background-image: url(https://bits.wikimedia.org/static-1.22wmf8/skins/vector/images/tab-normal-fade.png?2013-06-20T16:33:20Z); font-weight:bold;}
+	#mw-head:hover div.vectorTabs li.selected {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADUlEQVQIHWNoYBgWEACJ5TIB0K9KcAAAAABJRU5ErkJggg==); background-image: url(https://bits.wikimedia.org/static-1.22wmf8/skins/vector/images/tab-current-fade.png?2013-06-20T16:33:20Z);}
+	.toc {border-color:#ddd !important; margin-bottom:1.3em;}
+	.toc li:last-of-type {margin-bottom:0 !important;}
+	sup.reference a {color:#aaa !important;}
+	table.ambox {border-top:none; border-right:none; border-bottom:none; border-left-width:5px; background-color:#f6f6f6; margin-bottom:1.3em;}
+	#siteSub {color:#bbb;}
+}

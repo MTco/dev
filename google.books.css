@@ -1,0 +1,23 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("books.google.com") {
+	body * {
+		color:#444 !important;
+		font-family:Verdana,Arial,sans-serif !important;
+	}
+	#gb,#gba,#guser,h2.kd-appname,#left-toolbar-buttons,.goog-inline-block.goog-flat-menu-button,#search_bar,#menu_td,div.goog-menu.goog-menu-vertical,div.viewport-top-linkbar.viewport-top-linkbar-horizontal{
+		display:none !important;
+	}
+	.goog-inline-block.jfk-button.jfk-button-standard.jfk-button-collapse-right,.goog-inline-block.jfk-button.jfk-button-standard.jfk-button-narrow.jfk-button-collapse-left.jfk-button-collapse-right.jfk-button-clear-outline,.goog-inline-block.jfk-button.jfk-button-standard.jfk-button-narrow.jfk-button-collapse-left.jfk-button-clear-outlinej{
+	}
+	#viewport {
+		margin:0 auto !important;
+		color:#444 !important;
+		background:#fff !important;
+	}
+	#viewport div div div div {
+		min-height:900px !important;
+		height:auto !important;
+		max-height:100% !important;
+		color:#444 !important;
+	}
+}
